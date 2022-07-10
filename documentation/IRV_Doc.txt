@@ -1,0 +1,46 @@
+IRV Documentation
+
+The IRV class is used to run an election using the IRV algorithm. This class can also
+display the election results to the screen, and create audit files. 
+
+    /**
+     * Constructor for the IRV class
+     * 
+     * @param candidates the candidates in the election
+     * @param ballots the ballots in the election
+     * @param results the results of the election
+     * @param numSeats the number of seats in the election
+     */
+    public IRV(ArrayList<Candidate> candidates, ArrayList<Ballot> ballots, Audit results, int numSeats) {}
+
+    /**
+     * Method for running the IRV algorithm
+     * 
+     * @param candidates the candidates in the election
+     * @param ballots the ballots in the election
+     */
+    public void runAlgorithm() {}
+
+    /**
+     * Method for displaying the election results
+     */
+    public void displayResults() {}
+
+    /**
+     * Method to simulate a coin flip for tie breakers
+     * 
+     * @return randomly chosen true or false
+     */
+    private int coinFlip() {}
+
+    /**
+     * Method for shuffling the ballots
+     */
+    private void shuffle() {}
+
+    /**
+     * Method to create and write to an audit file
+     * 
+     * @param results
+     */
+    private void createAuditFile(Audit results) {}

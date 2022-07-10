@@ -1,0 +1,12 @@
+Candidate Documentation
+
+The Candidate class is used to hold individual candidate information.
+
+    /**
+     * Constructor for the Candidate class
+     * 
+     * @param party
+     * @param name
+     * @param rank
+     */
+    public Candidate(String party, String name, int rank) {}

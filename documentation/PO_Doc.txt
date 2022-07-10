@@ -1,0 +1,26 @@
+PO class
+This class is used to processing the ballot for the PO election and display the winner
+
+    /**
+        * Constructor for the PO class
+        * 
+        * @param candidates the candidates in the election
+        * @param ballots the ballots in the election
+        */
+
+     /**
+     * Method for running the OPL algorithm
+     */
+    public void runAlgorithm()
+
+    /**
+     * Method for displaying election results (DO NOT NEED FOR THIS PBI)
+     */
+    public void displayResults()
+
+    /**
+     * Method to simulate a coin flip for tie breakers
+     * 
+     * @return randomly chosen true (1) or false (0)
+     */
+    private int coinFlip() {

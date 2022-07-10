@@ -1,0 +1,23 @@
+Party Documentation
+
+The Party class is used to hold and manipulate party information.
+
+    /**
+     * Party constructor
+     * 
+     * @param nameParty the name of the party
+     * @param numPartySeats the number of seats the party has
+     */
+    public Party(String nameParty) {}
+
+    /**
+     * Method for adding a candidate to the party
+     * 
+     * @param candidate
+     */
+    public void addCandidate(Candidate candidate) {}
+
+    /**
+     * Method for sorting the candidates by number of votes in descending order
+     */
+    public void sortCandidates() {}

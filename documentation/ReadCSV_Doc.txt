@@ -1,0 +1,44 @@
+ReadCSV Documentation
+
+The ReadCSV class is used to parse a ballot file and store the gathered election information into their 
+respective data structures.
+
+    /**
+     * Constructor for ReadCSV
+     */
+    public ReadCSV() {}
+
+    /**
+     * Method for reading the CSV file
+     * 
+     * @param csv name of the csv file
+     */
+    public void readCSV(String csv) {}
+
+    /**
+     * Method for store the candidate info of the csv file in the candidate class
+     * 
+     * @return arraylist with candidate
+     */
+    public ArrayList<Candidate> getCandidates() {}
+
+    /**
+     * Method for store the ballot info of the csv file in the ballot class
+     * 
+     * @return arraylist of ballot
+     */
+    public ArrayList<Ballot> getBallots() {}
+
+    /**
+     * Method for store the type of voting system in the string
+     * 
+     * @return String with the voting type
+     */
+    public String getVotingSystem() {}
+
+    /**
+     * Method for getting the number of seats
+     * 
+     * @return number of seats
+     */
+    public int getNumSeats() {}

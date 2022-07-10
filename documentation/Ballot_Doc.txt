@@ -1,0 +1,11 @@
+Ballot Documentation
+
+The Ballot class is used to hold individual Ballot information.
+
+    /**
+     * Constructor for the Ballot class
+     * 
+     * @param candidateNumbers
+     * @param ballotID
+     */
+    public Ballot(HashMap<String, Candidate> candidateNumbers, int ballotID) {}

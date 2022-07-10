@@ -1,0 +1,11 @@
+DualSystemBallotCounter Documentation
+
+The DualSystemBallotCounter class is the driver for our system. It's purpose is to retrieve the 
+ballot file as input, manipulate its information, then instantiate either an IRV or OPL object. 
+
+    /**
+     * This is the driver for the application
+     * 
+     * @param args command line arguments
+     */
+    public static void main(String args[]) {}

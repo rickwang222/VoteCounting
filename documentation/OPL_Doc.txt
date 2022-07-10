@@ -1,0 +1,38 @@
+OPL Documentation
+
+The OPL class is used to run an election using the OPL algorithm. This class can also
+display the election results to the screen, and create audit files. 
+
+    /**
+     * Constructor for the OPL class
+     * 
+     * @param candidates the candidates in the election
+     * @param ballots the ballots in the election
+     * @param results the results of the election
+     */
+    public OPL(ArrayList<Candidate> candidates, ArrayList<Ballot> ballots, Audit results, int numSeats) {}
+
+    /**
+     * Method for running the OPL algorithm
+     */
+    public void runAlgorithm() {}
+
+    /**
+     * Method for displaying the election results
+     */
+    public void displayResults() {}
+
+    /**
+     * Method to simulate a coin flip for tie breakers
+     * 
+     * @return randomly chosen true (1) or false (0)
+     */
+    private int coinFlip() {}
+
+    /**
+     * Method to create and write to an audit file
+     * 
+     * @param results
+     */
+    private void createAuditFile(Audit results) {}
+
